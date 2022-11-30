@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+
+}
+body{
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+ }
+
+.nav .brand-logo{
+    margin-left: -120px;
+}
+.nav .nav-link {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: space-evenly ;
+    background-color: #0F84BA;
+}
+ .nav .nav-link .link a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
+.nav .nav-link .link a:hover{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav .nav-link .link{
+    list-style: none;
+    color: black;
+}
+
+
+.nav{
+    margin-bottom: 2em;
+}
+
+.bio h1{
+    text-align: center;
+    color: #DE3163;
+}
+.bio img{
+    display: flex;
+    margin: 0 auto ;
+    width: 350px;
+    border-radius: 12em;
+    border: 0.5em solid #fff ;
+    box-shadow: 3px 5px 2px 4px #DE3163;
+    margin-bottom: 1em;
+    
+}
+
+.title{
+    text-align: center;
+    font-style: italic;
+}
+
+#history{
+    text-align: center;
+    background-color: #145C7E;
+    color: #fff;
+    font-family: "Source sans pro";
+    font-size: 20px;
+    padding: 2em;
+    border-radius: 1em;
+    border-color: #fff;
+    margin: 2em;
+    line-height: 2em;
+}
+.founder{
+    display: flex;
+    margin: 2em;
+    padding: 2px;
+}
+.founder .bio-left,.bio-right h2{
+    font-family: "Source sans pro";
+    font-size: 40px;
+
+}
+.founder h2{
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+}
+
+.founder .bio-left .elt{
+    font-family: "Source sans pro";
+    font-size: 15px;
+    color: #fff;
+    padding: 8px;
+
+}
+.founder .bio-right .elt{
+    font-family: "Source sans pro";
+    font-size: 15px;
+    color: #fff;
+    padding: 8px;
+
+}
+
+.founder .bio-right {
+    background-color: #2C2E2E;
+
+}
+.founder .bio-left {
+    background-color: #1F2427;
+
+}
+
+.livre h1{
+    text-align: center;
+    margin: 15px;
+    padding: 0.5em;
+    border: none;
+    color: #fff;
+    background-color:#0F84BA ;
+}
+
+.livre .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.livre .catalog .book{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+.livre .catalog .button{
+    display: flex;
+    font-family: "Source sans pro";
+    flex-wrap: wrap;
+    width: 10em;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 1px 1px #fff;
+    cursor: pointer;
+    background-color: #7C8383;
+}
+.livre .catalog .button:hover{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10em;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: none;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 1px 1px #fff;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: #0EB24F;
+}
+
+.contact h1{
+    text-align: center;
+    font-family: "Source sans pro";
+    font-size: 3em;
+    
+}
+
+
+.contact{
+    background-image: url("images/contact.jpg");
+    background-size: cover;
+    font-style: italic;
+    color: #fff;
+    width: 100%;
+    height: 203px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    text-align: center;
+    padding-top: 10px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.contact div{
+    display: flex;
+    padding-top: 1em;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.contact .icon a {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.footer{
+    display: flex ;
+    font-family: "Source sans pro";
+    padding: 0.5em;
+    justify-content: center;
+}
